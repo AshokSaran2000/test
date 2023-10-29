@@ -1,0 +1,229 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-nav {
+    margin-left: 700px;
+}
+
+.banner {
+    background-image: url("Images/image 28.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+}
+.bannerhead {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 215px;
+}
+
+ .col-sm{
+    width: 300px;
+height: 475px;
+flex-shrink: 0;
+ }
+
+
+
+
+
+   
+    .accordion {
+        margin: 20px; 
+    }
+
+    .accordion-header {
+        background-color: #11B98F; 
+        border: 1px solid #ddd; 
+        border-radius: 5px; 
+        padding: 10px; 
+    }
+
+    .accordion-button {
+        background-color:#11B98F; 
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+         transition: background-color 0.3s ease; 
+    }
+
+    .accordion-button:hover {
+        background-color: #11B98F 
+    }
+
+    .accordion-body {
+        padding: 20px; 
+    }
+    
+
+   
+    
+
+    
+
+    .accordion-button.collapsed {
+        background-color: #28a745; 
+    }
+
+    
+
+    
+
+    
+    .toolssearch {
+        font-size: 18px; 
+    }
+
+    
+    .btn-success {
+        background-color: #28a745; 
+        color: #fff; 
+        border: none; 
+        border-radius: 5px; 
+        padding: 10px 20px; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
+    }
+
+    .btn-success:hover {
+        background-color: #1e7e34; 
+    }
+
+    
+    .btn-success p {
+        margin-bottom: 0; 
+    }
+
+
+ */
+ /* Common styles for all screen sizes */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar-nav {
+    margin-left: 700px;
+}
+
+.banner {
+    background-image: url("Images/image 28.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.bannerhead {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 215px;
+}
+
+.col-sm {
+    width: 300px;
+    height: 475px;
+    flex-shrink: 0;
+}
+
+/* Common styles for the accordion component */
+
+.accordion {
+    margin: 20px;
+}
+
+.accordion-header {
+    background-color: #11B98F;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.accordion-button {
+    background-color: #11B98F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #11B98F;
+}
+
+.accordion-body {
+    padding: 20px;
+}
+
+.toolssearch {
+    font-size: 18px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+}
+
+.btn-success p {
+    margin-bottom: 0;
+}
+
+/* Media query for mobile usage */
+@media (max-width: 575.98px) {
+    ul.navbar-nav {
+        margin-left: 0;
+    }
+
+    .col-sm {
+        width: 100%; /* Make the column full width on mobile */
+        height: auto; /* Adjust height as needed */
+    }
+
+    .bannerhead {
+        padding-top: 100px; /* Adjust padding as needed */
+    }
+
+    .accordion-header {
+        background-color: #007BFF; /* Change header background color for mobile */
+    }
+
+    .accordion-button.collapsed {
+        background-color: #555; /* Change button background color for collapsed state on mobile */
+    }
+
+    /* Add more mobile-specific styles as needed */
+}
+
+/* Media query for laptop usage and above */
+@media (min-width: 992px) {
+    ul.navbar-nav {
+        margin-left: 700px;
+    }
+
+    .col-sm {
+        width: 300px;
+        height: 475px;
+    }
+
+    .bannerhead {
+        padding-top: 215px;
+    }
+
+    /* Add more laptop/desktop-specific styles as needed */
+}
+
+
